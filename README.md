@@ -1,6 +1,16 @@
 # UCX Tutorial at HotInterconnects 2021
 
+**Held on**: August 20th, 9 AM - 12 PM
 [Event website and Program](https://hoti.org/program.html)
+
+## Organizers:
+* Oscar Hernandez (NVIDIA)
+* Jeffrey Young (Georgia Institute of Technology)
+* Matthew Baker (Oak Ridge National Laboratory)
+* Gilad Shainer (NVIDIA)
+* Yossi Itigin (NVIDIA) 
+
+Please register for Hot Interconnects to join this tutorial. Registration is free this year and includes access to the tutorials! [Register here](https://hoti.123signup.com/event/registration/kjxzx)
 
 ## Tentative Agenda
 
