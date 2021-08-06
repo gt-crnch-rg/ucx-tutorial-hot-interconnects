@@ -1,6 +1,7 @@
 # UCX Tutorial at HotInterconnects 2021
 
 **Held on**: August 20th, 9 AM - 12 PM
+
 [Event website and Program](https://hoti.org/program.html)
 
 ## Organizers:
@@ -9,6 +10,10 @@
 * Matthew Baker (Oak Ridge National Laboratory)
 * Gilad Shainer (NVIDIA)
 * Yossi Itigin (NVIDIA) 
+
+Over the past 10 years, the Unified Communication X (UCX) framework has developed from an initial vision for a portable networking middleware layer to a fully implemented framework specification that supports multiple architectures including x86, Arm, Power and GPU. UCX provides a high-performance stacked architecture for communication runtimes like MPI and OpenSHMEM, and the definition of UCX protocol and transport layers continue to evolve with the introduction of new GPU supercomputers, edge computing devices, and smart networking cards. 
+
+This tutorial covers some of the most recent advances around the UCX ecosystem and provides meaningful examples of the usage of UCX with MPI, OpenSHMEM, and as part of higher-level tools like NVIDIA's RAPIDS and Apache Spark. In addition to understanding the latest support for UCX layers, attendees will learn how to run simple examples of UCX codes that are relevant for Python developers with PyUCX, traditional MPI and SHMEM programmers.
 
 Please register for Hot Interconnects to join this tutorial. Registration is free this year and includes access to the tutorials! [Register here](https://hoti.123signup.com/event/registration/kjxzx)
 
