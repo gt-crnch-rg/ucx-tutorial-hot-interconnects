@@ -4,6 +4,8 @@
 
 [Event website and Program](https://hoti.org/program.html)
 
+![UCX Layer](fig/ucx_tutorial_layer_diagram_2021.png)
+
 ## Organizers:
 * Oscar Hernandez (NVIDIA)
 * Jeffrey Young (Georgia Institute of Technology)
