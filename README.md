@@ -30,3 +30,7 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 | 10:30 - 11:00 | Hello World Demo                        |               |        |       |
 | 11:00 - 11:10 | **BREAK**                               |               |        |       |
 | 11:10-11:50   | UCX Advanced Topics and GPU Demo        |               |        |       |
+
+## Acknowledgments
+This tutorial is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing".
+
