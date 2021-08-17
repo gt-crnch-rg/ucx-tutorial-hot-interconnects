@@ -1,6 +1,6 @@
 # UCX Tutorial at HotInterconnects 2021
 
-**Held on**: August 20th, 9 AM - 12 PM
+**Held on**: August 20th, 9 AM - 12 PM Pacific 
 
 [Event website and Program](https://hoti.org/program.html)
 
@@ -30,6 +30,13 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 | 10:30 - 11:00 | Hello World Demo                        |               |        |       |
 | 11:00 - 11:10 | **BREAK**                               |               |        |       |
 | 11:10-11:50   | UCX Advanced Topics and GPU Demo        |               |        |       |
+
+## Resources Mentioned in this Tutorial
+
+### UCF 
+### UCX Bindings
+* [UCX-Py ReadTheDocs](https://ucx-py.readthedocs.io/en/latest/)
+* [UCX Integration with DASK](https://blog.dask.org/2019/06/09/ucx-dgx)
 
 ## Acknowledgments
 This tutorial is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing".
