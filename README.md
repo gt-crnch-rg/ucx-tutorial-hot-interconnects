@@ -21,18 +21,18 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 
 ## Tentative Agenda
 
-| Time          | Topic                                   | Presenter     | Slides | Notes |
+| Time          | Topic                                   | Presenters     | Slides | Notes |
 | ------------- | --------------------------------------- | ------------- | ------ | ----- |
-| 9:00 - 9:20    | UCX Tutorial and Ecosystem Introduction | Gilad Shainer |        |       |
-| 9:20 - 10:00   | UCX Basics - networking overview,       | Jeff Young    |        |       |
-| 9:20 - 10:00   | worker and endpoint creation            |              |        |       |
+| 9:00 - 9:20    | UCX Tutorial and Ecosystem Introduction | Gilad |        |       |
+| 9:20 - 10:00   | UCX Basics - networking overview,       | Jeff    |        |       |
+|                | worker and endpoint creation            |              |        |       |
 | 10:00 - 10:10  | **BREAK**                               |               |        |       |
-| 10:10 - 10:20  | Hello World part 1                       |               |        |       |
-| 10:20 - 10:35  | UCX memory management                    |               |        |       |
-| 10:35 - 10:45  | Hello World Demo, part 2                |               |        |       |
-| 10:30 - 10:45  | GPU discussion/demo                     |               |        |       |
+| 10:10 - 10:20  | Hello World part 1                       |  Matt, Jeff  |        |       |
+| 10:20 - 10:35  | UCX memory management                    |              |        |       |
+| 10:35 - 10:45  | Hello World Demo, part 2                |  Matt, Jeff   |        |       |
+| 10:45 - 11:00  | GPU discussion/demo                     |  Oscar, Matt  |        |       |
 | 11:00 - 11:10  | **BREAK**                               |               |        |       |
-| 11:10-11:50    | UCX Advanced Topics and GPU Demo        |               |        |       |
+| 11:10 - 11:50    | UCX Advanced Topics - bindings        |  Matt, Oscar, Yossi |        |       |
 
 ## Resources Mentioned in this Tutorial
 
