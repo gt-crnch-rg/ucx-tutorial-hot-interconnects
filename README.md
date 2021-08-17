@@ -28,7 +28,7 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 |                | worker and endpoint creation            |              |        |       |
 | 10:00 - 10:10  | **BREAK**                               |               |        |       |
 | 10:10 - 10:20  | Hello World part 1                      |  Matt, Jeff  |        |       |
-| 10:20 - 10:35  | UCX memory management                   |              |        |       |
+| 10:20 - 10:35  | UCX memory management                   |  Jeff, Oscar        |        |       |
 | 10:35 - 10:45  | Hello World Demo, part 2                |  Matt, Jeff   |        |       |
 | 10:45 - 11:00  | GPU discussion/demo                     |  Oscar, Matt  |        |       |
 | 11:00 - 11:10  | **BREAK**                               |               |        |       |
