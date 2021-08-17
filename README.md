@@ -23,17 +23,21 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 
 | Time          | Topic                                   | Presenter     | Slides | Notes |
 | ------------- | --------------------------------------- | ------------- | ------ | ----- |
-| 9:00 -9:20    | UCX Tutorial and Ecosystem Introduction | Gilad Shainer |        |       |
-| 9:20 -10:00   | UCX Basics                              |               |        |       |
-| 10:00 -10:10  | **BREAK**                               |               |        |       |
-| 10:10 - 10:30 | UCX Basics                              |               |        |       |
-| 10:30 - 11:00 | Hello World Demo                        |               |        |       |
-| 11:00 - 11:10 | **BREAK**                               |               |        |       |
-| 11:10-11:50   | UCX Advanced Topics and GPU Demo        |               |        |       |
+| 9:00 - 9:20    | UCX Tutorial and Ecosystem Introduction | Gilad Shainer |        |       |
+| 9:20 - 10:00   | UCX Basics - networking overview,       | Jeff Young    |        |       |
+| 9:20 - 10:00   | worker and endpoint creation            |              |        |       |
+| 10:00 - 10:10  | **BREAK**                               |               |        |       |
+| 10:10 - 10:20  | Hello World part 1                       |               |        |       |
+| 10:20 - 10:35  | UCX memory management                    |               |        |       |
+| 10:35 - 10:45  | Hello World Demo, part 2                |               |        |       |
+| 10:30 - 10:45  | GPU discussion/demo                     |               |        |       |
+| 11:00 - 11:10  | **BREAK**                               |               |        |       |
+| 11:10-11:50    | UCX Advanced Topics and GPU Demo        |               |        |       |
 
 ## Resources Mentioned in this Tutorial
 
 ### UCF 
+
 ### UCX Bindings
 * [UCX-Py ReadTheDocs](https://ucx-py.readthedocs.io/en/latest/)
 * [UCX Integration with DASK](https://blog.dask.org/2019/06/09/ucx-dgx)
