@@ -37,12 +37,17 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 
 ## Resources Mentioned in this Tutorial
 
-### UCF 
+### UCF Resources
+* [UCF Website](www.openucx.org)
+* [UCX Github](https://github.com/openucx/ucx)
+* [UCX Mailing List](https://elist.ornl.gov/mailman/listinfo/ucx-group)
 
 ### UCX Bindings
 * [UCX-Py ReadTheDocs](https://ucx-py.readthedocs.io/en/latest/)
 * [UCX Integration with DASK](https://blog.dask.org/2019/06/09/ucx-dgx)
 
 ## Acknowledgments
-This tutorial is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing".
+* We appreciate and acknowledge support from UCF members and collaborators including Pavel Shamis, Alina Sklarevich, Alex Margolis, Swen Boehm, and Oded Paz​
+* This work was supported by the United States Department of Defense & used resources at Oak Ridge National Laboratory.
+* This tutorial is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing".
 
