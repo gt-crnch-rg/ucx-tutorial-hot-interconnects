@@ -37,10 +37,11 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 
 ## Resources Mentioned in this Tutorial
 
-### UCF Resources
+### UCF/UCX Resources
 * [UCF Website](www.openucx.org)
 * [UCX Github](https://github.com/openucx/ucx)
 * [UCX Mailing List](https://elist.ornl.gov/mailman/listinfo/ucx-group)
+* [UCF ISC 2021 Birds of Feather Overview](https://openucx.org/wp-content/uploads/2021/07/UCF-UCX-BOF-ISC-2021.pdf)
 
 ### UCX Bindings
 * [UCX-Py ReadTheDocs](https://ucx-py.readthedocs.io/en/latest/)
