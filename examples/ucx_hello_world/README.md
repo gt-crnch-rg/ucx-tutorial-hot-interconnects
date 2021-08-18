@@ -5,13 +5,18 @@ As a first step make sure you have installed any dependencies and also that you 
 
 ## Compile this example
 ```
+#Edit setenv.sh to point to your UCX installation: `export UCX_ROOT=<path_to_UCX_INSTALL>`
 source setenv.sh
 make
 ```
 
 ## Run the example
-`./ucp_hello_world`
-`./ucp_hello_world [server_name]`
+```
+# Start the server
+./ucp_hello_world
+# In a separate terminal window start the client 
+./ucp_hello_world [server_name]
+```
 
 ### UCP Server Sample Output
 ```
