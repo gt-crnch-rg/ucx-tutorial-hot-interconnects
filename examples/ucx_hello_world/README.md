@@ -1,7 +1,8 @@
 # UCX Hello World
 
-As a first step make sure you have installed any dependencies and also that you have built and installed UCX. See [this page](https://github.com/gt-crnch-rg/ucx-tutorial-hoti-21/blob/main/examples/Installing_UCX_README.md) for more details on installation. 
+This example demonstrates a basic UCX "Hello World" with a client and server instance. 
 
+As a first step make sure you have installed any dependencies and also that you have built and installed UCX. See [this page](https://github.com/gt-crnch-rg/ucx-tutorial-hoti-21/blob/main/examples/Installing_UCX_README.md) for more details on installation. 
 
 ## Compile this example
 ```
