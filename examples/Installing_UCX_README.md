@@ -4,6 +4,20 @@
 
 ** NOTE ** The UCX conda package does not support IB/RDMA (OFED) builds by default. See [this guide](https://ucx-py.readthedocs.io/en/latest/install.html#ucx-ofed) if you need to build OFED support and want to use conda.
 
+Set up your initial conda environment - we recommend using miniconda as it provides a minimal base environment.
+```
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh
+$ chmod a+x Miniconda3-py39_4.10.3-Linux-x86_64.sh && ./Miniconda3-py39_4.10.3-Linux-x86_64.sh
+#Initialize your environment if you didn't run conda init
+$ eval "$(<yourhome>/miniconda3/bin/conda shell.bash hook)" 
+
+#Install the CPU version of UCX and also UCX-Py
+(base) $ conda create -n ucx -c conda-forge -c rapidsai ucx-proc=*=cpu ucx ucx-py python=3.7
+conda activate ucx
+(<user_dir>/conda/%userprofile%.condaenvs/ucx) $ which ucx_info
+<user_dir>/conda/%userprofile%.condaenvs/ucx/bin/ucx_info
+```
+
 ### Installing UCX via source
 
 The main [UCX ReadTheDocs](https://openucx.readthedocs.io/en/master/running.html#ucx-build-and-install) has instructions on building from source that we repeat here for convenience.
@@ -21,6 +35,13 @@ $ ../configure --prefix=<ucx-install-path>
 $ make -j4 && make install
 ```
 
+To add CUDA support add the following flags to point to a valid CUDA installation ([from directions here](https://ucx-py.readthedocs.io/en/latest/install.html))
+```
+# Performance build
+../contrib/configure-release --prefix=$CONDA_PREFIX --with-cuda=$CUDA_HOME --enable-mt CPPFLAGS="-I$CUDA_HOME/include"
+# Debug build
+../contrib/configure-devel --prefix=$CONDA_PREFIX --with-cuda=$CUDA_HOME --enable-mt CPPFLAGS="-I$CUDA_HOME/include"
+```
 
 ### Installing UCX via Spack
 
@@ -35,3 +56,9 @@ spack install ucx
 ### Installing UCX with CUDA and Python support (Needed for CUDA Example)
 
 Please check the instructions from the [UCX-Py ReadTheDocs](https://ucx-py.readthedocs.io/en/latest/install.html) and follow either the conda or source installation builds. Note that for source builds you need to specify the path of your working CUDA installation. 
+
+With conda builds, you can use the ucx-proc metapackage to install GPU instead of CPU support:
+```
+#Install the GPU version of UCX and also UCX-Py
+conda create -n ucx_gpu -c conda-forge -c rapidsai cudatoolkit=11.0 ucx-proc=*=gpu ucx ucx-py python=3.7
+```
