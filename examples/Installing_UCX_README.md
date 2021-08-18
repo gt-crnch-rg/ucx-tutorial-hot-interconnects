@@ -17,6 +17,7 @@ conda activate ucx
 (<user_dir>/conda/%userprofile%.condaenvs/ucx) $ which ucx_info
 <user_dir>/conda/%userprofile%.condaenvs/ucx/bin/ucx_info
 ```
+In this case, the root of your UCX directory, UCX_ROOT would be this conda environment directory, so to run examples you would set the root variable to this location: `export UCX_ROOT=<user_dir>/conda/%userprofile%.condaenvs/ucx`
 
 ### Installing UCX via source
 
@@ -61,4 +62,5 @@ With conda builds, you can use the ucx-proc metapackage to install GPU instead o
 ```
 #Install the GPU version of UCX and also UCX-Py
 conda create -n ucx_gpu -c conda-forge -c rapidsai cudatoolkit=11.0 ucx-proc=*=gpu ucx ucx-py python=3.7
+conda activate ucx_gpu
 ```
