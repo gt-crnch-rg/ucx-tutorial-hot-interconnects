@@ -1,20 +1,7 @@
 # UCX Hello World
 
-## Install dependencies
+As a first step make sure you have installed any dependencies and also that you have built and installed UCX. See [this page](https://github.com/gt-crnch-rg/ucx-tutorial-hoti-21/blob/main/examples/Installing_UCX_README.md) for more details on installation. 
 
-### Installing UCX via anaconda
-
-### Installing UCX via source
-
-### Installing UCX via Spack
-
-```
-<your_linux_box>:~/git clone https://github.com/spack/spack.git
-#Optional - tell spack to put all of its files under /opt/spack - this is useful for global installation
-spack clone /opt/spack
-#Use spack to install and wait a while for it to build all the dependencies for you. It should install UCX 10.1.
-spack install ucx
-```
 
 ## Compile this example
 ```
