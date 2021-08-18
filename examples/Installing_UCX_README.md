@@ -1,13 +1,24 @@
-## Install dependencies
+### Install dependencies
 
 ### Installing UCX via anaconda
+
+** NOTE ** The UCX conda package does not support IB/RDMA (OFED) builds by default. See [this guide](https://ucx-py.readthedocs.io/en/latest/install.html#ucx-ofed) if you need to build OFED support and want to use conda.
 
 ### Installing UCX via source
 
 The main [UCX ReadTheDocs](https://openucx.readthedocs.io/en/master/running.html#ucx-build-and-install) has instructions on building from source that we repeat here for convenience.
 
 ```
-https://openucx.readthedocs.io/en/master/running.html#ucx-build-and-install
+$ wget https://github.com/openucx/ucx/releases/download/v1.11.0/ucx-1.11.0.tar.gz
+$ tar xzf ucx-1.11.0.tar.gz
+$ cd ucx-1.11.0
+
+#Configure the project
+$ mkdir build
+$ cd build
+$ ../configure --prefix=<ucx-install-path>
+
+$ make -j4 && make install
 ```
 
 
@@ -23,4 +34,4 @@ spack install ucx
 
 ### Installing UCX with CUDA and Python support (Needed for CUDA Example)
 
-Please check the instructions from the [UCX-Py ReadTheDocs](https://ucx-py.readthedocs.io/en/latest/install.html) and follow either the conda or source installation builds.
+Please check the instructions from the [UCX-Py ReadTheDocs](https://ucx-py.readthedocs.io/en/latest/install.html) and follow either the conda or source installation builds. Note that for source builds you need to specify the path of your working CUDA installation. 
