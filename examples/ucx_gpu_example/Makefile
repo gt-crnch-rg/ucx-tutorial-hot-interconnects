@@ -4,6 +4,7 @@
 #Set path to the base directory of your UCX installation
 UCX_PATH=${UCX_ROOT}
 CUDA_PATH=${CUDA_ROOT}
+
 CC=nvcc
 .c.o:
 	$(CC) -L$(UCX_PATH)/lib -I$(UCX_PATH)/include -I$(CUDA_PATH) -lucp -lucs -luct -g -c $<

@@ -1,30 +1,23 @@
 # UCX Hello World
 
-## Install dependencies
+This example demonstrates a basic UCX "Hello World" with a client and server instance. 
 
-### Installing UCX via anaconda
-
-### Installing UCX via source
-
-### Installing UCX via Spack
-
-```
-<your_linux_box>:~/git clone https://github.com/spack/spack.git
-#Optional - tell spack to put all of its files under /opt/spack - this is useful for global installation
-spack clone /opt/spack
-#Use spack to install and wait a while for it to build all the dependencies for you. It should install UCX 10.1.
-spack install ucx
-```
+As a first step make sure you have installed any dependencies and also that you have built and installed UCX. See [this page](https://github.com/gt-crnch-rg/ucx-tutorial-hoti-21/blob/main/examples/Installing_UCX_README.md) for more details on installation. 
 
 ## Compile this example
 ```
+#Edit setenv.sh to point to your UCX installation: `export UCX_ROOT=<path_to_UCX_INSTALL>`
 source setenv.sh
 make
 ```
 
 ## Run the example
-`./ucp_hello_world`
-`./ucp_hello_world [server_name]`
+```
+# Start the server
+./ucp_hello_world
+# In a separate terminal window start the client 
+./ucp_hello_world [server_name]
+```
 
 ### UCP Server Sample Output
 ```

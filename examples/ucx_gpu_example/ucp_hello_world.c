@@ -208,7 +208,7 @@ static int run_ucx_client(ucp_worker_h ucp_worker)
     str = calloc(1, test_string_length);
     if (str != NULL) {
       //memcpy(str, msg + 1, test_string_length);
-        CUDA_FUNC(cudaMemcpy(str, msg, test_string_length, cudaMemcpyDefault));
+        CUDA_FUNC(cudaMemcpy(str, msg + 1, test_string_length, cudaMemcpyDefault));
         printf("\n\n----- UCP TEST SUCCESS ----\n\n");
         printf("%s", str);
         printf("\n\n---------------------------\n\n");
@@ -377,7 +377,7 @@ static int run_ucx_server(ucp_worker_h ucp_worker)
     ret = 0;
 
 err_free_mem_type_msg:
-    free(msg);
+    cudaFree(msg);
 err_ep:
     ucp_ep_destroy(client_ep);
 err:

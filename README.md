@@ -1,6 +1,6 @@
 # UCX Tutorial at HotInterconnects 2021
 
-**Held on**: August 20th, 9 AM - 12 PM Pacific 
+**Held on**: August 20th, 9 AM - 12 PM US Pacific Time 
 
 [Event website and Program](https://hoti.org/program.html)
 
