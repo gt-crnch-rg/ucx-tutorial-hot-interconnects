@@ -21,7 +21,7 @@ make
 
 ### UCP Server Sample Output
 ```
-ucx-tutorial-hoti-21/examples/ucx_hello_world$ ./ucp_hello_world 
+ucx-tutorial-hoti-21/examples/01_ucx_hello_world$ ./ucp_hello_world 
 ...
 UCX_LISTENER_BACKLOG=auto
 UCX_PROTO_ENABLE=n
@@ -38,7 +38,9 @@ flush_ep completed with status 0 (Success)
 
 ### UCP Client Sample Output
 ```
-ucx-tutorial-hoti-21/examples/ucx_hello_world$ ./ucp_hello_world localhost
+# Remember to point to the UCX libraries for the client terminal as well!
+$ source ../setenv_ucx.sh
+ucx-tutorial-hoti-21/examples/01_ucx_hello_world$ ./ucp_hello_world localhost
 
 ...
 UCX_FLUSH_WORKER_EPS=y
