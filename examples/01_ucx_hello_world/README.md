@@ -6,7 +6,7 @@ As a first step make sure you have installed any dependencies and also that you 
 
 ## Compile this example
 ```
-#Edit setenv.sh to point to your UCX installation: `export UCX_ROOT=<path_to_UCX_INSTALL>`
+#Edit setenv.sh to point to your UCX installation: `export UCX_PATH=<path_to_UCX_INSTALL>`
 source setenv.sh
 make
 ```
