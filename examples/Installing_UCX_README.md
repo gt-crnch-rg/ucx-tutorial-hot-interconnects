@@ -15,7 +15,7 @@ Set up your initial conda environment - we recommend using miniconda as it provi
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh
 $ chmod a+x Miniconda3-py39_4.10.3-Linux-x86_64.sh && ./Miniconda3-py39_4.10.3-Linux-x86_64.sh
 #Initialize your environment if you didn't run conda init
-$ eval "$(<yourhome>/miniconda3/bin/conda shell.bash hook)" 
+$ eval "$(${HOME}/miniconda3/bin/conda shell.bash hook)"
 
 #Install the CPU version of UCX and also UCX-Py
 (base) $ conda create -n ucx -c conda-forge -c rapidsai ucx-proc=*=cpu ucx ucx-py python=3.7
