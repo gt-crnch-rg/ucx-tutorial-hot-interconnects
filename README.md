@@ -38,7 +38,7 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 
 ## Link to Tutorial Video
 
-HotInterconnects has hosted this tutorial video on their conference platform and on YouTube for this tutorial. See it [here](https://www.youtube.com/watch?v=QJIgAGZayUA).
+HotInterconnects has hosted this tutorial video on their conference platform and on YouTube for this tutorial. Please see the tutorial [here](https://www.youtube.com/watch?v=QJIgAGZayUA).
 
 ## Resources Mentioned in this Tutorial
 
