@@ -19,7 +19,7 @@ This tutorial covers some of the most recent advances around the UCX ecosystem a
 
 Please register for Hot Interconnects to join this tutorial. Registration is free this year and includes access to the tutorials! [Register here](https://hoti.123signup.com/event/registration/kjxzx)
 
-## Tentative Agenda
+## Agenda
 
 | Time          | Topic                                   | Presenters     | Slides | Notes |
 | ------------- | --------------------------------------- | ------------- | ------ | ----- |
@@ -34,6 +34,11 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 | 11:00 - 11:10  | **BREAK**                               |               |        |       |
 | 11:10 - 11:50  | UCX Advanced Topics - bindings,         |  Matt, Yossi, Oscar |        |       |
 |                | OpenMPI and OpenSHMEM integration       |   |        |       |
+
+
+## Link to Tutorial Video
+
+HotInterconnecst has hosted this tutorial video on their platform and on YouTube for this tutorial. See it [here](https://www.youtube.com/watch?v=QJIgAGZayUA).
 
 ## Resources Mentioned in this Tutorial
 
