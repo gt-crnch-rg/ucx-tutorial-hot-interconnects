@@ -1,29 +1,30 @@
-# UCX Tutorial at HotInterconnects 2021
+# UCX Tutorial at HotInterconnects 2022
 
-**Held on**: August 20th, 9 AM - 12 PM US Pacific Time 
+**Held on**: August 19th, 9 AM - 12 PM US Pacific Time 
 
-[Event website and Program](https://hoti.org/program.html)
+[Event website and Program](https://hoti.org/program/)
 
 ![UCX Layer](fig/ucx_tutorial_layer_diagram_2021.png)
 
 ## Organizers:
 * Oscar Hernandez (NVIDIA)
 * Jeffrey Young (Georgia Institute of Technology)
-* Matthew Baker (Oak Ridge National Laboratory)
-* Gilad Shainer (NVIDIA)
+* Matthew Baker (Voltron Data)
 * Yossi Itigin (NVIDIA) 
+* Chris Taylor (Tactical Computing Laboratories)
+
 
 Over the past 10 years, the Unified Communication X (UCX) framework has developed from an initial vision for a portable networking middleware layer to a fully implemented framework specification that supports multiple architectures including x86, Arm, Power and GPU. UCX provides a high-performance stacked architecture for communication runtimes like MPI and OpenSHMEM, and the definition of UCX protocol and transport layers continue to evolve with the introduction of new GPU supercomputers, edge computing devices, and smart networking cards. 
 
 This tutorial covers some of the most recent advances around the UCX ecosystem and provides meaningful examples of the usage of UCX with MPI, OpenSHMEM, and as part of higher-level tools like NVIDIA's RAPIDS and Apache Spark. In addition to understanding the latest support for UCX layers, attendees will learn how to run simple examples of UCX codes that are relevant for Python developers with PyUCX, traditional MPI and SHMEM programmers.
 
-Please register for Hot Interconnects to join this tutorial. Registration is free this year and includes access to the tutorials! [Register here](https://hoti.123signup.com/event/registration/kjxzx)
+Please register for Hot Interconnects to join this tutorial. Registration is free this year and includes access to the tutorials! [Register here](https://events.zoom.us/ev/Ag0YT5e-lTNl0GMOr_hTDXekOBRsWAKSLRqAlBY0X7Bzwubg3giw~Ail5D916DQK4hw0eT8Y9bI748fr6NFuIA0s9I6LmMGGmgR0z3u4XCqabrw)
 
-## Agenda
+## Agenda (Please note this agenda may change!)
 
 | Time          | Topic                                   | Presenters     | Slides | Notes |
 | ------------- | --------------------------------------- | ------------- | ------ | ----- |
-| 9:00 - 9:20    | UCX Tutorial and Ecosystem Introduction | Gilad |        |       |
+| 9:00 - 9:20    | UCX Tutorial and Ecosystem Introduction | Jeff |        |       |
 | 9:20 - 10:00   | UCX Basics - networking overview,       | Jeff    |        |       |
 |                | worker and endpoint creation            |              |        |       |
 | 10:00 - 10:10  | **BREAK**                               |               |        |       |
@@ -38,7 +39,7 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 
 ## Link to Tutorial Video
 
-HotInterconnects has hosted this tutorial video on their conference platform and on YouTube for this tutorial. Please see the tutorial [here](https://www.youtube.com/watch?v=QJIgAGZayUA).
+TBD
 
 ## Resources Mentioned in this Tutorial
 
@@ -54,6 +55,8 @@ HotInterconnects has hosted this tutorial video on their conference platform and
 
 ## Acknowledgments
 * We appreciate and acknowledge support from UCF members and collaborators including Pavel Shamis, Alina Sklarevich, Alex Margolis, Swen Boehm, and Oded Paz​
-* This work was supported by the United States Department of Defense & used resources at Oak Ridge National Laboratory.
+* This work was supported by the United States Department of Defense and used resources at Oak Ridge National Laboratory.
 * This tutorial is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing".
 
+## Previous Iterations of this Tutorial
+* [Hot Interconnects 2021 UCX Tutorial]
