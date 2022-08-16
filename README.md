@@ -9,12 +9,12 @@
 ## Organizers:
 * Jeffrey Young [(Georgia Institute of Technology)](https://crnch-rg.cc.gatech.edu/)
 * Matthew Baker [(Voltron Data)](https://voltrondata.com/)
-* Oscar Hernandez (NVIDIA)
-* Yossi Itigin (NVIDIA)
+* Oscar Hernandez [(NVIDIA)](nvidia.com)
+* Yossi Itigin [(NVIDIA)](nvidia.com)
 * Chris Taylor [(Tactical Computing Laboratories)](https://tactcomplabs.com/)
 
 
-**[NEW FOR 2022]** - Chris Taylor of Tactical Computing Laboratories (TCL)](https://tactcomplabs.com/) will present on the newest UCX support for RISC-V platforms as well as ideas for growing UCX for the RISC-V ecosystem.
+**[NEW FOR 2022]** - Chris Taylor of [Tactical Computing Laboratories (TCL)](https://tactcomplabs.com/) will present on the newest UCX support for RISC-V platforms as well as ideas for growing UCX for the RISC-V ecosystem.
 
 **Abstract:** Over the past 10 years, the Unified Communication X (UCX) framework has developed from an initial vision for a portable networking middleware layer to a fully implemented framework specification that supports multiple architectures including x86, Arm, Power and GPU. UCX provides a high-performance stacked architecture for communication runtimes like MPI and OpenSHMEM, and the definition of UCX protocol and transport layers continue to evolve with the introduction of new GPU supercomputers, edge computing devices, and smart networking cards. 
 
