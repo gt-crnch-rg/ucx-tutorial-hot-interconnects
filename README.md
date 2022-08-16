@@ -7,14 +7,16 @@
 ![UCX Layer](fig/ucx_tutorial_layer_diagram_2021.png)
 
 ## Organizers:
+* Jeffrey Young [(Georgia Institute of Technology)](https://crnch-rg.cc.gatech.edu/)
+* Matthew Baker [(Voltron Data)](https://voltrondata.com/)
 * Oscar Hernandez (NVIDIA)
-* Jeffrey Young (Georgia Institute of Technology)
-* Matthew Baker (Voltron Data)
-* Yossi Itigin (NVIDIA) 
-* Chris Taylor (Tactical Computing Laboratories)
+* Yossi Itigin (NVIDIA)
+* Chris Taylor [(Tactical Computing Laboratories)](https://tactcomplabs.com/)
 
 
-Over the past 10 years, the Unified Communication X (UCX) framework has developed from an initial vision for a portable networking middleware layer to a fully implemented framework specification that supports multiple architectures including x86, Arm, Power and GPU. UCX provides a high-performance stacked architecture for communication runtimes like MPI and OpenSHMEM, and the definition of UCX protocol and transport layers continue to evolve with the introduction of new GPU supercomputers, edge computing devices, and smart networking cards. 
+**[NEW FOR 2022]** - Chris Taylor of Tactical Computing Laboratories (TCL)](https://tactcomplabs.com/) will present on the newest UCX support for RISC-V platforms as well as ideas for growing UCX for the RISC-V ecosystem.
+
+**Abstract:** Over the past 10 years, the Unified Communication X (UCX) framework has developed from an initial vision for a portable networking middleware layer to a fully implemented framework specification that supports multiple architectures including x86, Arm, Power and GPU. UCX provides a high-performance stacked architecture for communication runtimes like MPI and OpenSHMEM, and the definition of UCX protocol and transport layers continue to evolve with the introduction of new GPU supercomputers, edge computing devices, and smart networking cards. 
 
 This tutorial covers some of the most recent advances around the UCX ecosystem and provides meaningful examples of the usage of UCX with MPI, OpenSHMEM, and as part of higher-level tools like NVIDIA's RAPIDS and Apache Spark. In addition to understanding the latest support for UCX layers, attendees will learn how to run simple examples of UCX codes that are relevant for Python developers with PyUCX, traditional MPI and SHMEM programmers.
 
@@ -24,22 +26,23 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 
 | Time          | Topic                                   | Presenters     | Slides | Notes |
 | ------------- | --------------------------------------- | ------------- | ------ | ----- |
-| 9:00 - 9:20    | UCX Tutorial and Ecosystem Introduction | Jeff |        |       |
+| 9:00 - 9:20    | UCX Tutorial and Ecosystem Introduction | Oscar |        |       |
 | 9:20 - 10:00   | UCX Basics - networking overview,       | Jeff    |        |       |
 |                | worker and endpoint creation            |              |        |       |
 | 10:00 - 10:10  | **BREAK**                               |               |        |       |
 | 10:10 - 10:20  | Hello World part 1                      |  Matt, Jeff  |        |       |
 | 10:20 - 10:35  | UCX memory management                   |  Jeff, Oscar        |        |       |
 | 10:35 - 10:45  | Hello World Demo, part 2                |  Matt, Jeff   |        |       |
-| 10:45 - 11:00  | GPU discussion/demo                     |  Oscar, Matt  |        |       |
+| 10:45 - 11:00  | GPU discussion/demo, UCXPy              |  Oscar, Matt  |        |       |
 | 11:00 - 11:10  | **BREAK**                               |               |        |       |
-| 11:10 - 11:50  | UCX Advanced Topics - bindings,         |  Matt, Yossi, Oscar |        |       |
-|                | OpenMPI and OpenSHMEM integration       |   |        |       |
+| 11:10 - 11:25  | RISC-V Support for UCX                  |  Chris |        |       |
+| 11:25 - 11:50  | UCX Advanced Topics - bindings,         |  Yossi |        |       |
+|                | OpenMPI integration                     |   |        |       |
 
 
 ## Link to Tutorial Video
 
-TBD
+TBD - the session should be recorded and shared with attendees.
 
 ## Resources Mentioned in this Tutorial
 
@@ -59,4 +62,5 @@ TBD
 * This tutorial is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing".
 
 ## Previous Iterations of this Tutorial
-* [Hot Interconnects 2021 UCX Tutorial]
+* [Hot Interconnects 2021 UCX Tutorial](https://github.com/gt-crnch-rg/ucx-tutorial-hot-interconnects/tree/v2021.8)
+* [UCX 2017 Tutorial](https://openucx.org/presentations/) - this tutoral by Pavel Shamis may be available on the UCX presentations site. 
