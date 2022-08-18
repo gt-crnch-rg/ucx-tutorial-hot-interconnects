@@ -64,3 +64,36 @@ ABCDEFGHIJKLMNO
 
 ---------------------------
 ```
+
+
+## UCT Example
+
+Note that we don't cover the UCT Hello World example in detail in the tutorial, but we have included an example for interested users. Most users would not need to interact with UCT unless they are developing low-level support that interacts with specific networking hardware.
+
+### UCT Server Sample Output
+```
+./uct_hello_world -d eth0 -t tcp
+INFO: UCT_HELLO_WORLD AM function = uct_ep_am_short server = (null) port = 13337
+Using tcp/eth0
+Waiting for connection...
+# Connect using the client in a separate terminal
+...
+----- UCT TEST SUCCESS ----
+
+[callback] uct_ep_am_short sent ABCDEFGHIJKLMNO
+
+---------------------------
+
+----- UCT TEST SUCCESS ----
+
+[main] uct_ep_am_short sent ABCDEFGHIJKLMNO
+
+---------------------------
+```
+
+### UCT Client Sample Output
+```
+./uct_hello_world -d eth0 -t tcp -n localhost
+INFO: UCT_HELLO_WORLD AM function = uct_ep_am_short server = localhost port = 13337
+Using tcp/eth0
+```
