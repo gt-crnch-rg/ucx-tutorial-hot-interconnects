@@ -24,7 +24,7 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 
 ## Agenda
 
-[Presentation slides]()
+**[Presentation slides]()**
 
 | Time          | Topic                                   | Presenters     | 
 | ------------- | --------------------------------------- | ------------- | 
