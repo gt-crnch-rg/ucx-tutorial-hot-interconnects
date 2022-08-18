@@ -22,22 +22,24 @@ This tutorial covers some of the most recent advances around the UCX ecosystem a
 
 Please register for Hot Interconnects to join this tutorial. Registration is free this year and includes access to the tutorials! [Register here](https://events.zoom.us/ev/Ag0YT5e-lTNl0GMOr_hTDXekOBRsWAKSLRqAlBY0X7Bzwubg3giw~Ail5D916DQK4hw0eT8Y9bI748fr6NFuIA0s9I6LmMGGmgR0z3u4XCqabrw)
 
-## Agenda (Please note this agenda may change!)
+## Agenda
 
-| Time          | Topic                                   | Presenters     | Slides | 
-| ------------- | --------------------------------------- | ------------- | ------ | 
-| 9:00 - 9:20    | UCX Tutorial and Ecosystem Introduction | Oscar, Yossi |        |       
-| 9:20 - 10:00   | UCX Basics - networking overview,       | Jeff    |        |       
-|                | worker and endpoint creation            |              |        |       
-| 10:00 - 10:10  | **BREAK**                               |               |        |       
-| 10:10 - 10:25  | Hello World Demo                        |  Matt  |        |       
-| 10:25 - 10:40  | UCX memory management                   |  Jeff        |        |       
-| 10:40 - 10:45  | Accelerators, UCXPy                     |  Oscar | |
-| 10:45 - 11:00  | GPU and UCXPy Hello World Demo          |  Matt  |        |       
-| 11:00 - 11:10  | **BREAK**                               |               |        |       
-| 11:10 - 11:25  | RISC-V Support for UCX                  |  Chris |        |       
-| 11:25 - 11:50  | UCX Advanced Topics - Bindings and         |  Yossi |        |       
-|                | OpenMPI integration                     |   |        |       
+[Presentation slides]()
+
+| Time          | Topic                                   | Presenters     | 
+| ------------- | --------------------------------------- | ------------- | 
+| 9:00 - 9:20    | UCX Tutorial and Ecosystem Introduction | Oscar, Yossi | 
+| 9:20 - 10:00   | UCX Basics - networking overview,       | Jeff    | 
+|                | worker and endpoint creation            |              | 
+| 10:00 - 10:10  | **BREAK**                               |               |
+| 10:10 - 10:25  | Hello World Demo                        |  Matt  | 
+| 10:25 - 10:40  | UCX memory management                   |  Jeff        | 
+| 10:40 - 10:45  | Accelerators, UCXPy                     |  Oscar |
+| 10:45 - 11:00  | GPU and UCXPy Hello World Demo          |  Matt  |
+| 11:00 - 11:10  | **BREAK**                               |               |
+| 11:10 - 11:25  | RISC-V Support for UCX                  |  Chris |
+| 11:25 - 11:50  | UCX Advanced Topics - Bindings and         |  Yossi |
+|                | OpenMPI integration                     |   | 
 
 
 ## Link to Tutorial Video
