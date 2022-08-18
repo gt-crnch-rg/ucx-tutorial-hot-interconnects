@@ -179,7 +179,7 @@ ucs_status_t do_am_zcopy(iface_info_t *if_info, uct_ep_h ep, uint8_t id,
     iov.stride          = 0;
     iov.count           = 1;
 
-    comp.uct_comp.func  = zcopy_completion_cb;
+    comp.uct_comp.func  = (uct_completion_callback_t)zcopy_completion_cb;
     comp.uct_comp.count = 1;
     comp.md             = if_info->md;
     comp.memh           = memh;
