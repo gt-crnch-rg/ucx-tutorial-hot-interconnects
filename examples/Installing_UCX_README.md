@@ -4,7 +4,7 @@ We provide some information and links to install UCX, noting that there are seve
 
 * Conda currently supports UCX 1.9 and UCX-Py 0.21.0
 * Spack installs UCX 1.10.1 by default on many systems but may default to 1.9 for certain architectures.
-* As of August 2021, [UCX 1.11.0](https://github.com/openucx/ucx/releases/tag/v1.11.0) is the latest stable release for source builds. 
+* As of August 2021, [UCX 1.13.0](https://github.com/openucx/ucx/releases/tag/v1.13.0) is the latest stable release for source builds. 
 
 ### Installing UCX via anaconda
 
@@ -18,7 +18,7 @@ $ chmod a+x Miniconda3-py39_4.10.3-Linux-x86_64.sh && ./Miniconda3-py39_4.10.3-L
 $ eval "$(${HOME}/miniconda3/bin/conda shell.bash hook)"
 
 #Install the CPU version of UCX and also UCX-Py
-(base) $ conda create -n ucx -c conda-forge -c rapidsai ucx-proc=*=cpu ucx ucx-py python=3.7
+(base) $ conda create -n ucx -c conda-forge -c rapidsai ucx-proc=*=cpu ucx ucx-py python=3.9
 conda activate ucx
 (<user_dir>/conda/%userprofile%.condaenvs/ucx) $ which ucx_info
 <user_dir>/conda/%userprofile%.condaenvs/ucx/bin/ucx_info
@@ -30,9 +30,9 @@ In this case, the root of your UCX directory, UCX_ROOT would be this conda envir
 The main [UCX ReadTheDocs](https://openucx.readthedocs.io/en/master/running.html#ucx-build-and-install) has instructions on building from source that we repeat here for convenience.
 
 ```
-$ wget https://github.com/openucx/ucx/releases/download/v1.11.0/ucx-1.11.0.tar.gz
-$ tar xzf ucx-1.11.0.tar.gz
-$ cd ucx-1.11.0
+$ wget https://github.com/openucx/ucx/releases/download/v1.13.0/ucx-1.13.0.tar.gz
+$ tar xzf ucx-1.13.0.tar.gz
+$ cd ucx-1.13.0
 
 #Configure the project
 $ mkdir build
@@ -56,10 +56,10 @@ To add CUDA support add the following flags to point to a valid CUDA installatio
 <your_linux_box>:~/git clone https://github.com/spack/spack.git
 #Optional - tell spack to put all of its files under /opt/spack - this is useful for global installation
 spack clone /opt/spack
-#Use spack to install and wait a while for it to build all the dependencies for you. Currently it should install UCX 1.10.1.
+#Use spack to install and wait a while for it to build all the dependencies for you. Currently it should install UCX 1.13.0.
 spack install ucx
 #Alternatively, if you want to pick a specific version pass this as a parameter
-spack install ucx@1.10.1
+spack install ucx@1.12.1
 ```
 
 ### Installing UCX with CUDA and Python support (Needed for CUDA Example)
@@ -69,6 +69,6 @@ Please check the instructions from the [UCX-Py ReadTheDocs](https://ucx-py.readt
 With conda builds, you can use the ucx-proc metapackage to install GPU instead of CPU support:
 ```
 #Install the GPU version of UCX and also UCX-Py
-conda create -n ucx_gpu -c conda-forge -c rapidsai cudatoolkit=11.0 ucx-proc=*=gpu ucx ucx-py python=3.7
+conda create -n ucx_gpu -c conda-forge -c rapidsai cudatoolkit=11.0 ucx-proc=*=gpu ucx ucx-py python=3.9
 conda activate ucx_gpu
 ```
