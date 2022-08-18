@@ -2,8 +2,8 @@
 
 We provide some information and links to install UCX, noting that there are several paths to a working installation. The source build is relatively low overhead and likely will work the best with the provided examples. We recommend running at least UCX 1.10 for most examples and use cases.
 
-* Conda currently supports UCX 1.9 and UCX-Py 0.21.0
-* Spack installs UCX 1.10.1 by default on many systems but may default to 1.9 for certain architectures.
+* Conda currently supports UCX 1.13 and UCX-Py 0.27.0
+* Spack installs UCX 1.13 by default on many systems but may default to an earlier release for certain architectures.
 * As of August 2021, [UCX 1.13.0](https://github.com/openucx/ucx/releases/tag/v1.13.0) is the latest stable release for source builds. 
 
 ### Installing UCX via anaconda
