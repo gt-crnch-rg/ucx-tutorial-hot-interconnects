@@ -42,12 +42,28 @@ install_ucx_conda_gpu()
 	
 	#Initialize Conda 
 	eval "$(${HOME}/miniconda3/bin/conda shell.bash hook)"
-	conda create -n ucx_gpu -c conda-forge -c rapidsai cudatoolkit=11.0 ucx-proc=*=gpu ucx ucx-py python=3.9
+	#Install the packages used for this tutorial
+	conda create -n ucx_gpu -c conda-forge -c rapidsai nvidia cuda-nvcc ucx-proc=*=gpu ucx ucx-py python=3.9
+	#Activate this new environment; remember to use conda deactivate to leave the environment
 	conda activate ucx_gpu
 }
 
-#Use this to install UCX from source without CUDA support 
-#install_ucx_source
 
-#Use this to install UCX with miniConda and GPU support
-install_ucx_conda_gpu
+#Check option specified by a user and run one of the functions
+shopt -s nocasematch
+
+echo "Specify which install option you would like to try - 'ucxsource' or 'ucxconda'"
+read option
+case $option in
+	ucxsource)
+	  #Use this to install UCX from source without CUDA support 
+	  install_ucx_source
+	;;
+	ucxconda)
+	  #Use this to install UCX with miniConda and GPU support
+	  install_ucx_conda_gpu
+	;;
+	*)
+	echo "No option selected - exiting"
+	;;
+esac
