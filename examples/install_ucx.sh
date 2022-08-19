@@ -1,5 +1,6 @@
 #!/bin/bash
 # This script shows how to install UCX from source
+# This script was tested on Ubuntu 18 and RHEL7
 # Usage: ./install_ucx_source.sh
 
 #Specify which version to install
@@ -10,7 +11,8 @@ INSTALL_PATH=/opt/ucx-$UCX_VERSION
 install_dependencies()
 {
 	printf "Installing dependencies"
-	sudo apt install nvidia-cuda-toolkit
+	#You can use this function to add and install dependencies like CUDA
+	#sudo apt install nvidia-cuda-toolkit
 }
 
 #Build from source without CUDA support
@@ -31,11 +33,21 @@ install_ucx_source()
 
 install_ucx_conda_gpu()
 {
-
+	printf "Installing and activating the latest Conda UCX GPU instance"
+	wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+	#Note you will need to follow and answer the prompts
+	chmod a+x Miniconda3*.sh&& ./Miniconda3-latest-Linux-x86_64.sh
+	#Clean up the Miniconda install
+	rm Miniconda3-latest-Linux-x86_64.sh
+	
+	#Initialize Conda 
+	eval "$(${HOME}/miniconda3/bin/conda shell.bash hook)"
+	conda create -n ucx_gpu -c conda-forge -c rapidsai cudatoolkit=11.0 ucx-proc=*=gpu ucx ucx-py python=3.9
+	conda activate ucx_gpu
 }
 
 #Use this to install UCX from source without CUDA support 
-install_ucx_source
+#install_ucx_source
 
 #Use this to install UCX with miniConda and GPU support
 install_ucx_conda_gpu
