@@ -1,6 +1,6 @@
 # UCX GPU Hello World
 
-This example demonstrates a GPU version of the UCX "Hello World" script with a client and server instance. This example specifically includes the use of CUDA and CUDA managed memory. 
+This example demonstrates a GPU version of the UCX "Hello World" script with a client and server instance. This example specifically includes the use of CUDA and CUDA managed memory. A key takeaway here is that other than a few small changes (
 
 As a first step make sure you have installed any dependencies and also that you have built and installed UCX. See [this page](https://github.com/gt-crnch-rg/ucx-tutorial-hoti-21/blob/main/examples/Installing_UCX_README.md) for more details on installation. Note that you need to build an environment with UCX and CUDA both installed.
 
@@ -64,4 +64,3 @@ UCX data message was received
 ABCDEFGHIJKLMNO
 
 ---------------------------
-```
