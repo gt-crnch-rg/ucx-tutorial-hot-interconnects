@@ -24,7 +24,7 @@ Please register for Hot Interconnects to join this tutorial. Registration is fre
 
 ## Agenda
 
-**[Presentation slides]()**
+**[Presentation slides](https://github.com/gt-crnch-rg/ucx-tutorial-hot-interconnects/blob/main/slides/UCX%202022%20HOTI%20Tutorial.pdf)**
 
 | Time          | Topic                                   | Presenters     | 
 | ------------- | --------------------------------------- | ------------- | 
