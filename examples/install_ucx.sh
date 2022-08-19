@@ -35,17 +35,20 @@ install_ucx_conda_gpu()
 {
 	printf "Installing and activating the latest Conda UCX GPU instance"
 	wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-	#Note you will need to follow and answer the prompts
-	chmod a+x Miniconda3*.sh&& ./Miniconda3-latest-Linux-x86_64.sh
+	#Note you may need to answer a few prompts
+	chmod a+x Miniconda3*.sh&& ./Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
 	#Clean up the Miniconda install
 	rm Miniconda3-latest-Linux-x86_64.sh
 	
-	#Initialize Conda 
+	#Initialize Conda
 	eval "$(${HOME}/miniconda3/bin/conda shell.bash hook)"
 	#Install the packages used for this tutorial
-	conda create -n ucx_gpu -c conda-forge -c rapidsai nvidia cuda-nvcc ucx-proc=*=gpu ucx ucx-py python=3.9
+	conda create -n ucx_gpu -c conda-forge -c rapidsai rapids=22.06 cudatoolkit=11.5 ucx-proc=*=gpu ucx ucx-py python=3.9
 	#Activate this new environment; remember to use conda deactivate to leave the environment
+	conda install -n ucx_gpu -c nvidia cuda-nvcc 
 	conda activate ucx_gpu
+	#Clean up tarballs to save space - this install takes ~3GB
+	conda clean --tarballs
 }
 
 
